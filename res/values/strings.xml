@@ -11,5 +11,10 @@
     <string name="link_pin">配对密码</string>
     <string name="link_ok">连接</string>
     <string name="pass_rem">记住密码</string>
+    <string name="open_file">打开文件...</string>
+    <string name="reboot">重启</string>
+    <string name="shutdown">关机</string>
+        
+    
 
 </resources>
