@@ -28,31 +28,33 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int ic_mix=0x7f020001;
-        public static final int ic_mouse=0x7f020002;
-        public static final int ic_music=0x7f020003;
-        public static final int ic_music_plause=0x7f020004;
-        public static final int ic_music_post=0x7f020005;
-        public static final int ic_music_pre=0x7f020006;
-        public static final int ic_music_start=0x7f020007;
-        public static final int ic_music_stop=0x7f020008;
-        public static final int ic_ppt=0x7f020009;
-        public static final int ic_shutdown=0x7f02000a;
-        public static final int ic_video=0x7f02000b;
-        public static final int ic_volumn_down=0x7f02000c;
+        public static final int bg_login=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int ic_mix=0x7f020002;
+        public static final int ic_mouse=0x7f020003;
+        public static final int ic_music=0x7f020004;
+        public static final int ic_music_plause=0x7f020005;
+        public static final int ic_music_post=0x7f020006;
+        public static final int ic_music_pre=0x7f020007;
+        public static final int ic_music_start=0x7f020008;
+        public static final int ic_music_stop=0x7f020009;
+        public static final int ic_ppt=0x7f02000a;
+        public static final int ic_shutdown=0x7f02000b;
+        public static final int ic_video=0x7f02000c;
+        public static final int ic_volumn_down=0x7f02000d;
+        public static final int ip_char=0x7f02000e;
+        public static final int pass_lock=0x7f02000f;
     }
     public static final class id {
-        public static final int EditText_pass=0x7f090006;
         public static final int GridLayout1=0x7f090001;
-        public static final int action_settings=0x7f090009;
+        public static final int action_settings=0x7f090008;
         public static final int button1=0x7f090003;
         public static final int button2=0x7f090002;
-        public static final int editText_address=0x7f090005;
+        public static final int checkBox1=0x7f090007;
+        public static final int editText_address=0x7f090006;
+        public static final int editText_pass=0x7f090005;
         public static final int pager=0x7f090000;
         public static final int section_label=0x7f090004;
-        public static final int textView1=0x7f090007;
-        public static final int textView2=0x7f090008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -70,6 +72,7 @@ public final class R {
         public static final int link_addr=0x7f060006;
         public static final int link_ok=0x7f060008;
         public static final int link_pin=0x7f060007;
+        public static final int pass_rem=0x7f060009;
         public static final int title_section1=0x7f060001;
         public static final int title_section2=0x7f060002;
         public static final int title_section3=0x7f060003;

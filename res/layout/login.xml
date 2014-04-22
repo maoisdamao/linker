@@ -2,17 +2,43 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/back_black" >
+    android:background="@drawable/bg_login"
+    android:gravity="center_horizontal" >
+
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/editText_address"
+        android:layout_alignTop="@+id/editText_address"
+        android:layout_marginTop="52dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/pass_lock"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/back_black" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editText_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/dark_blue"
+        android:text="@string/link_ok"
+        android:textColor="@color/pure_white" 
+        android:button="@null"/>
 
     <EditText
         android:id="@+id/editText_address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="230dp"
-        android:layout_marginLeft="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="221dp"
         android:background="#FFFFFF"
+        android:drawableLeft="@drawable/ip_char"
         android:ems="10"
         android:inputType="number"
         android:textColor="@color/back_black" >
@@ -20,48 +46,15 @@
         <requestFocus />
     </EditText>
 
-    <EditText
-        android:id="@+id/EditText_pass"
+    <CheckBox
+        android:id="@+id/checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText_address"
-        android:layout_alignRight="@+id/editText_address"
-        android:layout_alignTop="@+id/editText_address"
-        android:layout_marginTop="52dp"
-        android:background="#FFFFFF"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:textColor="@color/back_black" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText_address"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="8dp"
-        android:layout_toLeftOf="@+id/EditText_pass"
-        android:text="@string/link_addr"
-        android:textColor="@color/white" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_alignTop="@+id/EditText_pass"
-        android:text="@string/link_pin"
-        android:textColor="@color/white" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/EditText_pass"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:background="@color/dark_blue"
-        android:text="@string/link_ok"
-        android:textColor="@color/pure_white" />
+        android:layout_alignRight="@+id/editText_pass"
+        android:layout_below="@+id/editText_pass"
+        android:checked="true"
+        android:text="@string/pass_rem"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
 
 </RelativeLayout>
