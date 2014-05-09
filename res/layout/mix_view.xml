@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/LinearLayout1"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@color/white"
+    android:gravity="center"
     android:orientation="vertical" >
 
     <Space
@@ -11,23 +12,40 @@
         android:layout_height="wrap_content"
         android:layout_gravity="fill_vertical" />
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="match_parent"
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:layout_weight="0"
-        android:background="@null"
-        android:src="@drawable/ic_shutdown" />
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:orientation="horizontal" >
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="20dp"
-        android:layout_weight="0"
-        android:background="@null"
-        android:src="@drawable/ic_mouse" />
+        <ImageButton
+            android:id="@+id/imageButton_mouse"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:src="@drawable/ic_mouse" />
+
+        <ImageButton
+            android:id="@+id/imageButton_sd"
+            android:layout_gravity="left"
+            android:background="@null"
+            android:src="@drawable/ic_shutdown" />
+
+        <Space
+            android:layout_column="2"
+            android:layout_gravity="fill_vertical"
+            android:layout_row="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0"
+            android:background="@null"
+            android:src="@drawable/ic_restart" />
+
+    </GridLayout>
 
 </LinearLayout>

@@ -8,7 +8,7 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/openppt_btn"
         android:layout_width="260dp"
         android:layout_height="30dp"
         android:layout_marginBottom="30dp"
@@ -17,7 +17,7 @@
         android:text="@string/open_file" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/pptimageView"
         android:layout_width="260dp"
         android:layout_height="260dp"
         android:layout_weight="0"
@@ -30,7 +30,7 @@
         android:layout_weight="0" >
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/uppage_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -40,7 +40,7 @@
             android:src="@drawable/ic_music_pre" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/PPT_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -49,7 +49,7 @@
             android:src="@drawable/ic_music_start" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/exitPPT_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -58,7 +58,7 @@
             android:src="@drawable/ic_music_plause" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/downpage_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
